@@ -110,6 +110,30 @@ Effective communication is a forte of mine, and I'm all about supporting the peo
 
   projects: [
     {
+      name: "WillyBeat",
+      repo: "willy-beat",
+      description:
+        "MIDI drum machine VST3/AU plugin built with JUCE. Ships 30 built-in patterns across Rock, Hip-Hop, Funk, Electronic, Jazz, and Latin — each stored as a human-readable .beat text file users can edit or share. Features algorithmic variation generation, MIDI file import, in-plugin pattern editor (clickable step grid), and playback controls for swing, timing feel, velocity humanization, and gate length.",
+      tech: ["C++", "JUCE", "VST3", "CMake", "MIDI", "Audio Plugin"],
+      github: "https://github.com/wsbresee/willy-beat",
+    },
+    {
+      name: "WillyArp",
+      repo: "willy-arp",
+      description:
+        "Chord-latching MIDI arpeggiator VST3/AU plugin built with JUCE. Hold or latch a chord and it arpeggios through it in configurable patterns (up, down, up-down, random) at a selectable note rate synced to host BPM. Demonstrates PPQ-based step sequencing and the JUCE 8 playhead API.",
+      tech: ["C++", "JUCE", "VST3", "CMake", "MIDI", "Audio Plugin"],
+      github: "https://github.com/wsbresee/willy-arp",
+    },
+    {
+      name: "WillyGain",
+      repo: "cubase-plugin",
+      description:
+        "Simple gain-staging VST3/AU plugin — the first of three JUCE audio plugins built to learn Cubase plugin development. Exposes a single −60 to +12 dB gain knob with a rotary UI and dark Palenight theme.",
+      tech: ["C++", "JUCE", "VST3", "CMake", "Audio Plugin"],
+      github: "https://github.com/wsbresee/cubase-plugin",
+    },
+    {
       name: "PCA Audio Compression App",
       repo: "pca-compression-app-final",
       description:
@@ -144,10 +168,11 @@ Effective communication is a forte of mine, and I'm all about supporting the peo
   ],
 
   skills: [
-    { category: "Languages", items: ["Python", "JavaScript", "Lua", "Haskell", "Java", "PHP", "Shell/Bash"] },
+    { category: "Languages", items: ["Python", "JavaScript", "C++", "Lua", "Haskell", "Java", "PHP", "Shell/Bash"] },
     { category: "Frontend", items: ["React", "Vite", "Tailwind CSS", "jQuery", "HTML/CSS"] },
     { category: "Backend", items: ["Flask", "Node.js", "Express", "PostgreSQL", "MySQL", "REST APIs"] },
     { category: "Data & ML", items: ["PySpark", "Databricks", "Apache Spark", "Machine Learning", "Apache Airflow", "NumPy", "pandas"] },
+    { category: "Audio & DSP", items: ["JUCE", "VST3", "CMake", "MIDI", "Audio Plugin Development"] },
     { category: "Cloud & DevOps", items: ["AWS", "Kubernetes", "Docker", "Git", "Linux/macOS"] },
   ],
 
